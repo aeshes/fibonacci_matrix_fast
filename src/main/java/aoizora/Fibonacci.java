@@ -1,8 +1,10 @@
 package aoizora;
 
+import java.math.BigInteger;
+
 public class Fibonacci
 {
-	public long calc(long n)
+	public BigInteger calc(long n)
 	{
 		Matrix2D result = Matrix2D.IDENTITY;
 		Matrix2D base = new Matrix2D(1, 1, 1, 0);
